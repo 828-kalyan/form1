@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health Assessment Form</title>
+    <script type="text/javascript" src="https://form.jotform.com/jsform/232311889447463"></script>
+</head>
+<body>
+<!--
+<h1>Health Assessment Form</h1>
+
+<form action="submit.php" method="post">
+    <h2>Personal Information</h2>
+    <label for="occupation">Occupation:</label>
+    <input type="text" id="occupation" name="occupation"><br>
+    <label for="employer">Employer:</label>
+    <input type="text" id="employer" name="employer"><br>
+    <label for="employment-status">Employment Status:</label>
+    <select id="employment-status" name="employment-status">
+        <option value="full-time">Full-time</option>
+        <option value="part-time">Part-time</option>
+        <option value="student">Student</option>
+        <option value="retired">Retired</option>
+    </select><br>
+    <label for="insurance-plan">Insurance Plan:</label>
+    <input type="text" id="insurance-plan" name="insurance-plan"><br>
+
+
+    <label for="marital-status">Marital Status:</label>
+    <input type="radio" id="marital-single" name="marital-status" value="single">
+    <label for="marital-single">Single</label>
+    <input type="radio" id="marital-married" name="marital-status" value="married">
+    <label for="marital-married">Married</label>
+    <input type="radio" id="marital-divorced" name="marital-status" value="divorced">
+    <label for="marital-divorced">Divorced</label>
+    <input type="radio" id="marital-partnership" name="marital-status" value="partnership">
+    <label for="marital-partnership">Significant Partnership</label>
+    <input type="radio" id="marital-widowed" name="marital-status" value="widowed">
+    <label for="marital-widowed">Widowed</label><br>
+
+    <label for="living-with">Live With:</label>
+    <input type="checkbox" id="living-spouse" name="living-with[]" value="spouse">
+    <label for="living-spouse">Spouse</label>
+    <input type="checkbox" id="living-parents" name="living-with[]" value="parents">
+    <label for="living-parents">Parents</label>
+    <input type="checkbox" id="living-children" name="living-with[]" value="children">
+    <label for="living-children">Children</label>
+    <input type="checkbox" id="living-partner" name="living-with[]" value="partner">
+    <label for="living-partner">Partner</label>
+    <input type="checkbox" id="living-friends" name="living-with[]" value="friends">
+    <label for="living-friends">Friends</label>
+    <input type="checkbox" id="living-pets" name="living-with[]" value="pets">
+    <label for="living-pets">Pets</label>
+    <input type="checkbox" id="living-relatives" name="living-with[]" value="relatives">
+    <label for="living-relatives">Relatives</label>
+    <input type="checkbox" id="living-alone" name="living-with[]" value="alone">
+    <label for="living-alone">Alone</label><br>
+    <label for="emergency-contact">Emergency Contact Person:</label>
+    <input type="text" id="emergency-contact" name="emergency-contact"><br>
+
+    <label for="relation">Relation:</label>
+    <input type="text" id="relation" name="relation"><br>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address"><br>
+
+    <label for="home-phone">Home Phone:</label>
+    <input type="tel" id="home-phone" name="home-phone"><br>
+
+    <label for="cell-phone">Cell Phone:</label>
+    <input type="tel" id="cell-phone" name="cell-phone"><br>
+
+    <label for="how-heard">How did you hear about us?</label>
+    <input type="text" id="how-heard" name="how-heard"><br>
+
+
+    <h2>Therapies</h2>
+    <label>Therapies you'd like to discuss:</label><br>
+    <input type="checkbox" id="therapy-acupuncture" name="therapies[]" value="acupuncture">
+    <label for="therapy-acupuncture">Acupuncture</label>
+    <input type="checkbox" id="therapy-nutrition" name="therapies[]" value="nutrition">
+    <label for="therapy-nutrition">Nutrition/Weight Management</label>
+    <input type="checkbox" id="therapy-iv-nutrition" name="therapies[]" value="iv-nutrition">
+    <label for="therapy-iv-nutrition">IV Nutrition</label>
+    <input type="checkbox" id="therapy-homeopathy" name="therapies[]" value="homeopathy">
+    <label for="therapy-homeopathy">Homeopathy</label>
+    <input type="checkbox" id="therapy-myotherapy" name="therapies[]" value="myotherapy">
+    <label for="therapy-myotherapy">Myotherapy/Bodywork</label>
+    <input type="checkbox" id="therapy-herbal-medicine" name="therapies[]" value="herbal-medicine">
+    <label for="therapy-herbal-medicine">Herbal Medicine</label><br>
+
+    <h2>Health Concerns</h2>
+    <label for="health-concerns">What are your most important health concerns/symptoms?</label><br>
+    <textarea id="health-concerns" name="health-concerns" rows="4" cols="50"></textarea><br>
+
+    <h2>Health Goals</h2>
+    <label for="health-goals">What are your health goals?</label><br>
+    <textarea id="health-goals" name="health-goals" rows="4" cols="50"></textarea><br>
+
+    <h2>Medical History</h2>
+    <label for="previous-conditions">List all previous health conditions (please include dates):</label><br>
+    <textarea id="previous-conditions" name="previous-conditions" rows="4" cols="50"></textarea><br>
+
+    <label for="previous-surgeries">List all previous surgeries (include dates):</label><br>
+    <textarea id="previous-surgeries" name="previous-surgeries" rows="4" cols="50"></textarea><br>
+
+    <label for="previous-hospitalizations">List all previous hospitalizations/accidents (include dates):</label><br>
+    <textarea id="previous-hospitalizations" name="previous-hospitalizations" rows="4" cols="50"></textarea><br>
+
+    <label for="allergies">List any allergies to medications, foods, supplements, environmental:</label><br>
+    <textarea id="allergies" name="allergies" rows="4" cols="50"></textarea><br>
+
+    <label for="prescription-medications">Please list all prescription medications you are taking:</label><br>
+    <textarea id="prescription-medications" name="prescription-medications" rows="4" cols="50"></textarea><br>
+
+    <label for="supplements">Please list all supplements and products you are taking:</label><br>
+    <textarea id="supplements" name="supplements" rows="4" cols="50"></textarea><br>
+
+    <h2>Physical Information</h2>
+    <label for="current-height">Current Height:</label>
+    <input type="text" id="current-height" name="current-height"><br>
+
+    <label for="current-weight">Current Weight:</label>
+    <input type="text" id="current-weight" name="current-weight"><br>
+
+    <label for="ideal-weight">Ideal Weight:</label>
+    <input type="text" id="ideal-weight" name="ideal-weight"><br>
+
+    <label for="maximum-weight">Maximum Weight:</label>
+    <input type="text" id="maximum-weight" name="maximum-weight"><br>
+
+    <label for="general-health">General Health:</label>
+    <select id="general-health" name="general-health">
+        <option value="excellent">Excellent</option>
+        <option value="good">Good</option>
+        <option value="fair">Fair</option>
+        <option value="poor">Poor</option>
+    </select><br>
+    <label for="cholesterol-checked">Have you had your cholesterol checked?</label>
+    <input type="radio" id="cholesterol-yes" name="cholesterol-checked" value="yes">
+    <label for="cholesterol-yes">Yes</label>
+    <input type="radio" id="cholesterol-no" name="cholesterol-checked" value="no">
+    <label for="cholesterol-no">No</label><br>
+
+    <label for="cholesterol-results">If yes, Date & Results:</label>
+    <input type="text" id="cholesterol-results" name="cholesterol-results"><br>
+
+    <label for="pap-smear">Have you had a Pap smear?</label>
+    <input type="radio" id="pap-yes" name="pap-smear" value="yes">
+    <label for="pap-yes">Yes</label>
+    <input type="radio" id="pap-no" name="pap-smear" value="no">
+    <label for="pap-no">No</label><br>
+
+    <label for="abnormal-pap">If yes, have you ever had an abnormal Pap?</label>
+    <input type="radio" id="abnormal-pap-yes" name="abnormal-pap" value="yes">
+    <label for="abnormal-pap-yes">Yes</label>
+    <input type="radio" id="abnormal-pap-no" name="abnormal-pap" value="no">
+    <label for="abnormal-pap-no">No</label><br>
+    <label for="abnormal-pap-treatment">If yes, when and what treatment was provided?</label>
+    <input type="text" id="abnormal-pap-treatment" name="abnormal-pap-treatment"><br>
+
+    <label for="mammogram">Have you had a mammogram?</label>
+    <input type="radio" id="mammogram-yes" name="mammogram" value="yes">
+    <label for="mammogram-yes">Yes</label>
+    <input type="radio" id="mammogram-no" name="mammogram" value="no">
+    <label for="mammogram-no">No</label><br>
+
+    <label for="mammogram-results">If yes, Date & Results:</label>
+    <input type="text" id="mammogram-results" name="mammogram-results"><br>
+
+    <label for="bone-density-test">Have you had a bone density test?</label>
+    <input type="radio" id="bone-density-yes" name="bone-density-test" value="yes">
+    <label for="bone-density-yes">Yes</label>
+    <input type="radio" id="bone-density-no" name="bone-density-test" value="no">
+    <label for="bone-density-no">No</label><br>
+
+    <label for="bone-density-results">If yes, Date & Results:</label>
+    <input type="text" id="bone-density-results" name="bone-density-results"><br>
+
+        <!-- Continue from the previous
+
+        <h2>Vaccination and Sleep</h2>
+        <label for="vaccinations">Have you received vaccinations?</label>
+        <input type="radio" id="vaccinations-yes" name="vaccinations" value="yes">
+        <label for="vaccinations-yes">Yes</label>
+        <input type="radio" id="vaccinations-no" name="vaccinations" value="no">
+        <label for="vaccinations-no">No</label><br>
+    
+        <label for="vaccine-reaction">Known vaccine reaction?</label>
+        <input type="radio" id="vaccine-reaction-yes" name="vaccine-reaction" value="yes">
+        <label for="vaccine-reaction-yes">Yes</label>
+        <input type="radio" id="vaccine-reaction-no" name="vaccine-reaction" value="no">
+        <label for="vaccine-reaction-no">No</label><br>
+    
+        <label for="difficulty-falling-asleep">Difficulty falling asleep?</label>
+        <input type="radio" id="difficulty-falling-asleep-yes" name="difficulty-falling-asleep" value="yes">
+        <label for="difficulty-falling-asleep-yes">Yes</label>
+        <input type="radio" id="difficulty-falling-asleep-no" name="difficulty-falling-asleep" value="no">
+        <label for="difficulty-falling-asleep-no">No</label><br>
+    
+        <label for="uninterrupted-sleep">Do you sleep uninterrupted through the night?</label>
+        <input type="radio" id="uninterrupted-sleep-yes" name="uninterrupted-sleep" value="yes">
+        <label for="uninterrupted-sleep-yes">Yes</label>
+        <input type="radio" id="uninterrupted-sleep-no" name="uninterrupted-sleep" value="no">
+        <label for="uninterrupted-sleep-no">No</label><br>
+    
+        <label for="sleep-hours">How many hours of sleep per night?</label>
+        <input type="text" id="sleep-hours" name="sleep-hours"><br>
+    
+        <label for="wake-refreshed">Do you wake refreshed?</label>
+        <input type="radio" id="wake-refreshed-yes" name="wake-refreshed" value="yes">
+        <label for="wake-refreshed-yes">Yes</label>
+        <input type="radio" id="wake-refreshed-no" name="wake-refreshed" value="no">
+        <label for="wake-refreshed-no">No</label><br>
+    
+        <label for="sleep-aids">Do you take sleep aids?</label>
+        <input type="radio" id="sleep-aids-yes" name="sleep-aids" value="yes">
+        <label for="sleep-aids-yes">Yes</label>
+        <input type="radio" id="sleep-aids-no" name="sleep-aids" value="no">
+        <label for="sleep-aids-no">No</label><br>
+    
+        <label for="sleep-aid-type">If yes, what type?</label>
+        <input type="text" id="sleep-aid-type" name="sleep-aid-type"><br>
+    
+        <h2>Dietary Information</h2>
+        <label for="diet-preferences">Dietary preferences/restrictions (vegan, gluten-free, high protein, etc.):</label><br>
+        <textarea id="diet-preferences" name="diet-preferences" rows="1" cols="20"></textarea><br>
+    
+        <label for="breakfast">Breakfast:</label>
+        <input type="text" id="breakfast" name="breakfast"><br>
+    
+        <label for="lunch">Lunch:</label>
+        <input type="text" id="lunch" name="lunch"><br>
+    
+        <label for="dinner">Dinner:</label>
+        <input type="text" id="dinner" name="dinner"><br>
+    
+        <label for="snacks">Snacks:</label>
+        <input type="text" id="snacks" name="snacks"><br>
+    
+        <label for="drinks">Drinks:</label>
+        <input type="text" id="drinks" name="drinks"><br>
+    
+        <label for="water-daily">How much water do you drink daily?</label>
+        <input type="text" id="water-daily" name="water-daily"><br>
+    
+        <label for="happy-diet">Are you happy with your current diet?</label>
+        <input type="radio" id="happy-diet-yes" name="happy-diet" value="yes">
+        <label for="happy-diet-yes">Yes</label>
+        <input type="radio" id="happy-diet-no" name="happy-diet" value="no">
+        <label for="happy-diet-no">No</label><br>
+    
+        <label for="diet-details">If yes, please give details:</label><br>
+        <textarea id="diet-details" name="diet-details" rows="1" cols="20"></textarea><br>
+
+            < Continue from the previous code snippet --
+
+    <h2>Lifestyle and Health Symptoms</h2>
+    <label for="alcohol">Do you drink alcohol?</label>
+    <input type="radio" id="alcohol-yes" name="alcohol" value="yes">
+    <label for="alcohol-yes">Yes</label>
+    <input type="radio" id="alcohol-no" name="alcohol" value="no">
+    <label for="alcohol-no">No</label><br>
+
+    <label for="alcohol-details">If yes, please list type, amount, and frequency (for example: 2 beers a week):</label><br>
+    <textarea id="alcohol-details" name="alcohol-details" rows="4" cols="50"></textarea><br>
+
+    <label for="caffeine">Do you drink caffeine?</label>
+    <input type="radio" id="caffeine-yes" name="caffeine" value="yes">
+    <label for="caffeine-yes">Yes</label>
+    <input type="radio" id="caffeine-no" name="caffeine" value="no">
+    <label for="caffeine-no">No</label><br>
+
+    <label for="caffeine-details">If yes, please list type, amount, and frequency:</label><br>
+    <textarea id="caffeine-details" name="caffeine-details" rows="4" cols="50"></textarea><br>
+
+    <label for="tobacco">Do you smoke or use tobacco?</label>
+    <input type="radio" id="tobacco-yes" name="tobacco" value="yes">
+    <label for="tobacco-yes">Yes</label>
+    <input type="radio" id="tobacco-no" name="tobacco" value="no">
+    <label for="tobacco-no">No</label><br>
+
+    <label for="tobacco-details">If yes, please list type, amount, and frequency. If you smoked in the past, please list how much and for how long:</label><br>
+    <textarea id="tobacco-details" name="tobacco-details" rows="4" cols="50"></textarea><br>
+
+    <label for="recreational-drug-use">Recreational drug use?</label>
+    <input type="radio" id="recreational-drug-yes" name="recreational-drug-use" value="yes">
+    <label for="recreational-drug-yes">Yes</label>
+    <input type="radio" id="recreational-drug-no" name="recreational-drug-use" value="no">
+    <label for="recreational-drug-no">No</label><br>
+
+    <label for="recreational-drug-details">If yes, what type and how often?</label><br>
+    <textarea id="recreational-drug-details" name="recreational-drug-details" rows="4" cols="50"></textarea><br>
+
+    <label for="exercise">Do you exercise?</label>
+    <input type="radio" id="exercise-yes" name="exercise" value="yes">
+    <label for="exercise-yes">Yes</label>
+    <input type="radio" id="exercise-no" name="exercise" value="no">
+    <label for="exercise-no">No</label><br>
+
+    <label for="exercise-frequency">If yes, how often?</label>
+    <input type="radio" id="exercise-frequency-1-2" name="exercise-frequency" value="1-2">
+    <label for="exercise-frequency-1-2">1-2 times a week</label>
+    <input type="radio" id="exercise-frequency-3-4" name="exercise-frequency" value="3-4">
+    <label for="exercise-frequency-3-4">3-4 times a week</label>
+    <input type="radio" id="exercise-frequency-more-than-4" name="exercise-frequency" value="more-than-4">
+    <label for="exercise-frequency-more-than-4">More than 4 times a week</label><br>
+
+    <h2>Health Symptoms</h2>
+    <label for="fatigue-energy">Fatigue/low energy?</label>
+    <input type="radio" id="fatigue-energy-yes" name="fatigue-energy" value="yes">
+    <label for="fatigue-energy-yes">Yes</label>
+    <input type="radio" id="fatigue-energy-no" name="fatigue-energy" value="no">
+    <label for="fatigue-energy-no">No</label><br>
+
+    <label for="insomnia">Insomnia?</label>
+    <input type="radio" id="insomnia-yes" name="insomnia" value="yes">
+    <label for="insomnia-yes">Yes</label>
+    <input type="radio" id="insomnia-no" name="insomnia" value="no">
+    <label for="insomnia-no">No</label><br>
+
+    <label for="appetite-changes">Appetite changes?</label>
+    <input type="text" id="appetite-changes" name="appetite-changes"><br>
+
+    <label for="weight-loss-gain">Unexplained weight loss/gain?</label>
+    <input type="text" id="weight-loss-gain" name="weight-loss-gain"><br>
+
+    <label for="fevers-chills">Fevers or chills?</label>
+    <input type="text" id="fevers-chills" name="fevers-chills"><br>
+
+    <label for="cold-intolerance">Cold intolerance?</label>
+    <input type="text" id="cold-intolerance" name="cold-intolerance"><br>
+
+    <label for="heat-intolerance">Heat intolerance?</label>
+    <input type="text" id="heat-intolerance" name="heat-intolerance"><br>
+
+    <label for="hot-flashes">Hot flashes?</label>
+    <input type="text" id="hot-flashes" name="hot-flashes"><br>
+
+    <label for="night-sweats">Night sweats?</label>
+    <input type="text" id="night-sweats" name="night-sweats"><br>
+
+    <label for="sweat-too-much">Sweat too much?</label>
+    <input type="text" id="sweat-too-much" name="sweat-too-much"><br>
+
+    <label for="headaches">Headaches?</label>
+    <input type="text" id="headaches" name="headaches"><br>
+
+    <label for="migraines">Migraines?</label>
+    <input type="text" id="migraines" name="migraines"><br>
+
+    <label for="dizziness-fainting">Dizziness/Fainting?</label>
+    <input type="text" id="dizziness-fainting" name="dizziness-fainting"><br>
+
+
+
+    <!-- Add more sections for health concerns, goals, previous conditions, surgeries, etc. -->
+
+    
+    <!-- Add more vision and hearing-related fields here -->
+
+    
+    
+</form>
+
+</body>
+</html>
